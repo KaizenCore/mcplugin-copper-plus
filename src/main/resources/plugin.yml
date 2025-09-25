@@ -1,0 +1,14 @@
+name: copper-plus
+version: '1.0'
+main: extra.qol.copperPlus.CopperPlus
+api-version: '1.21'
+prefix: CopperPlus
+authors: [ Timiliris_420 ]
+description: add Qol features to minecraft in a cool way
+commands:
+  copperplus:
+    description: Main CopperPlus command
+    usage: /<command> [kit|language|togglemsg|reload|help]
+    aliases: [cp, copper+]
+    permission: copperplus.use
+    permission-message: You don't have permission to use this command!

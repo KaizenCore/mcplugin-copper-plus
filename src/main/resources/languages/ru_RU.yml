@@ -1,0 +1,44 @@
+# Russian (Russia) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cУ вас нет разрешения на использование этого!"
+
+# Oxidation messages
+oxidation:
+  started: "&eНачато ускоренное окисление меди!"
+  progress: "&eБыстрое окисление! Водных блоков: &b%water% &e(Скорость: &b%speed%x&e)"
+  completed: "&eОкислено с &b%from% &eдо &b%to%"
+  fully-complete: "&6Медь полностью окислена!"
+  no-water: "&cНужна вода поблизости для быстрого окисления!"
+  campfire-not-lit: "&cКостёр должен быть зажжён!"
+  checking-setup: "&7Проверка настроек окисления..."
+
+# Kit messages
+kit:
+  success: "&eВы получили набор для окисления меди!"
+  help: "&7Поставьте костёр, медный блок сверху и воду рядом!"
+  cooldown: "&cВы должны подождать %time% секунд перед повторным использованием набора!"
+  player-only: "&cЭта команда может использоваться только игроками!"
+
+# Toggle messages command
+toggle:
+  enabled: "&aСообщения окисления меди включены!"
+  disabled: "&cСообщения окисления меди отключены!"
+  player-only: "&cЭта команда может использоваться только игроками!"
+
+# Language command messages
+language:
+  current: "&eВаш текущий язык: &b%lang%"
+  changed: "&aЯзык изменён на: &b%lang%"
+  invalid: "&cНеверный язык! Доступные языки: &e%languages%"
+  list-header: "&eДоступные языки:"
+  list-item: "&7- &b%code% &7(%name%)"
+  admin-set-default: "&aЯзык сервера по умолчанию установлен на: &b%lang%"
+  admin-no-permission: "&cВам нужны права администратора для установки языка по умолчанию!"
+  help:
+    header: "&e=== Команды языка ==="
+    user: "&b/language &7- Показать ваш текущий язык"
+    set: "&b/language set <код> &7- Изменить ваш язык"
+    list: "&b/language list &7- Список доступных языков"
+    admin: "&b/language admin <код> &7- Установить язык по умолчанию (только админ)"

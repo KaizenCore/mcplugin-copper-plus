@@ -1,0 +1,44 @@
+# German (Germany) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cDu hast keine Berechtigung dies zu benutzen!"
+
+# Oxidation messages
+oxidation:
+  started: "&eBeschleunigte Kupferoxidation gestartet!"
+  progress: "&eSchnelle Oxidation! Wasserblöcke: &b%water% &e(Geschwindigkeit: &b%speed%x&e)"
+  completed: "&eOxidiert von &b%from% &ezu &b%to%"
+  fully-complete: "&6Kupfer vollständig oxidiert!"
+  no-water: "&cWasser in der Nähe für schnelle Oxidation benötigt!"
+  campfire-not-lit: "&cDas Lagerfeuer muss angezündet sein!"
+  checking-setup: "&7Überprüfe Oxidationseinstellungen..."
+
+# Kit messages
+kit:
+  success: "&eDu hast das Kupfer-Oxidations-Kit erhalten!"
+  help: "&7Platziere Lagerfeuer, Kupferblock darüber und Wasser in der Nähe!"
+  cooldown: "&cDu musst %time% Sekunden warten, bevor du das Kit wieder benutzen kannst!"
+  player-only: "&cDieser Befehl kann nur von Spielern verwendet werden!"
+
+# Toggle messages command
+toggle:
+  enabled: "&aKupfer-Oxidations-Nachrichten aktiviert!"
+  disabled: "&cKupfer-Oxidations-Nachrichten deaktiviert!"
+  player-only: "&cDieser Befehl kann nur von Spielern verwendet werden!"
+
+# Language command messages
+language:
+  current: "&eDeine aktuelle Sprache: &b%lang%"
+  changed: "&aSprache geändert zu: &b%lang%"
+  invalid: "&cUngültige Sprache! Verfügbare Sprachen: &e%languages%"
+  list-header: "&eVerfügbare Sprachen:"
+  list-item: "&7- &b%code% &7(%name%)"
+  admin-set-default: "&aStandard-Serversprache gesetzt auf: &b%lang%"
+  admin-no-permission: "&cDu benötigst Admin-Berechtigung um die Standardsprache zu setzen!"
+  help:
+    header: "&e=== Sprachbefehle ==="
+    user: "&b/language &7- Zeigt deine aktuelle Sprache"
+    set: "&b/language set <code> &7- Ändere deine Sprache"
+    list: "&b/language list &7- Liste verfügbare Sprachen"
+    admin: "&b/language admin <code> &7- Setze Standardsprache (nur Admin)"

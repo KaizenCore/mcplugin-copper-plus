@@ -1,0 +1,44 @@
+# Portuguese (Brazil) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cVocê não tem permissão para usar isso!"
+
+# Oxidation messages
+oxidation:
+  started: "&eComeçou a oxidação acelerada do cobre!"
+  progress: "&eOxidando rapidamente! Blocos de água: &b%water% &e(Velocidade: &b%speed%x&e)"
+  completed: "&eOxidado de &b%from% &epara &b%to%"
+  fully-complete: "&6Cobre completamente oxidado!"
+  no-water: "&cPrecisa de água por perto para oxidação rápida!"
+  campfire-not-lit: "&cA fogueira deve estar acesa!"
+  checking-setup: "&7Verificando configuração de oxidação..."
+
+# Kit messages
+kit:
+  success: "&eVocê recebeu o kit de oxidação de cobre!"
+  help: "&7Coloque fogueira, bloco de cobre em cima e água por perto!"
+  cooldown: "&cVocê deve esperar %time% segundos antes de usar o kit novamente!"
+  player-only: "&cEste comando só pode ser usado por jogadores!"
+
+# Toggle messages command
+toggle:
+  enabled: "&aMensagens de oxidação de cobre ativadas!"
+  disabled: "&cMensagens de oxidação de cobre desativadas!"
+  player-only: "&cEste comando só pode ser usado por jogadores!"
+
+# Language command messages
+language:
+  current: "&eSeu idioma atual: &b%lang%"
+  changed: "&aIdioma mudado para: &b%lang%"
+  invalid: "&cIdioma inválido! Idiomas disponíveis: &e%languages%"
+  list-header: "&eIdiomas disponíveis:"
+  list-item: "&7- &b%code% &7(%name%)"
+  admin-set-default: "&aIdioma padrão do servidor definido para: &b%lang%"
+  admin-no-permission: "&cVocê precisa de permissão de administrador para definir o idioma padrão!"
+  help:
+    header: "&e=== Comandos de Idioma ==="
+    user: "&b/language &7- Mostra seu idioma atual"
+    set: "&b/language set <código> &7- Muda seu idioma"
+    list: "&b/language list &7- Lista idiomas disponíveis"
+    admin: "&b/language admin <código> &7- Define idioma padrão (apenas admin)"

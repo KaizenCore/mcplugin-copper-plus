@@ -1,0 +1,57 @@
+# French (France) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cVous n'avez pas la permission d'utiliser ceci!"
+
+# Oxidation messages
+oxidation:
+  started: "&eOxydation accélérée du cuivre commencée!"
+  progress: "&eOxydation rapide! Blocs d'eau: &b%water% &e(Vitesse: &b%speed%x&e)"
+  completed: "&eOxydé de &b%from% &eà &b%to%"
+  fully-complete: "&6Cuivre complètement oxydé!"
+  no-water: "&cBesoin d'eau à proximité pour l'oxydation rapide!"
+  campfire-not-lit: "&cLe feu de camp doit être allumé!"
+  checking-setup: "&7Vérification de la configuration d'oxydation..."
+
+# Kit messages
+kit:
+  success: "&eVous avez reçu le kit d'oxydation du cuivre!"
+  help: "&7Placez le feu de camp, le bloc de cuivre au-dessus et l'eau à proximité!"
+  cooldown: "&cVous devez attendre %time% secondes avant d'utiliser le kit à nouveau!"
+  player-only: "&cCette commande ne peut être utilisée que par les joueurs!"
+
+# Toggle messages command
+toggle:
+  enabled: "&aMessages d'oxydation du cuivre activés!"
+  disabled: "&cMessages d'oxydation du cuivre désactivés!"
+  player-only: "&cCette commande ne peut être utilisée que par les joueurs!"
+
+# Language command messages
+language:
+  current: "&eVotre langue actuelle: &b%lang%"
+  changed: "&aLangue changée en: &b%lang%"
+  invalid: "&cLangue invalide! Langues disponibles: &e%languages%"
+  list-header: "&eLangues disponibles:"
+  list-item: "&7- &b%code% &7(%name%)"
+  admin-set-default: "&aLangue par défaut du serveur définie sur: &b%lang%"
+  admin-no-permission: "&cVous avez besoin de la permission admin pour définir la langue par défaut!"
+  player-only: "&cCette commande ne peut être utilisée que par les joueurs!"
+  help:
+    header: "&e=== Commandes de Langue ==="
+    user: "&b/copperplus language &7- Affiche votre langue actuelle"
+    set: "&b/copperplus language set <code> &7- Changer votre langue"
+    list: "&b/copperplus language list &7- Lister les langues disponibles"
+    admin: "&b/copperplus language admin <code> &7- Définir la langue par défaut (admin seulement)"
+
+# Main command help
+help:
+  header: "&e=== Commandes CopperPlus ==="
+  kit: "&b/copperplus kit &7- Obtenir le kit d'oxydation du cuivre"
+  language: "&b/copperplus language &7- Gérer les paramètres de langue"
+  togglemsg: "&b/copperplus togglemsg &7- Basculer les messages d'oxydation"
+  reload: "&b/copperplus reload &7- Recharger la configuration (admin seulement)"
+
+# Reload command
+reload:
+  success: "&aConfiguration CopperPlus rechargée!"

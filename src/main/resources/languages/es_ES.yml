@@ -1,0 +1,57 @@
+# Spanish (Spain) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cNo tienes permiso para usar esto!"
+
+# Oxidation messages
+oxidation:
+  started: "&eComenzó la oxidación acelerada del cobre!"
+  progress: "&eOxidando rápidamente! Bloques de agua: &b%water% &e(Velocidad: &b%speed%x&e)"
+  completed: "&eOxidado de &b%from% &ea &b%to%"
+  fully-complete: "&6Cobre completamente oxidado!"
+  no-water: "&cNecesitas agua cerca para oxidación rápida!"
+  campfire-not-lit: "&cLa fogata debe estar encendida!"
+  checking-setup: "&7Verificando configuración de oxidación..."
+
+# Kit messages
+kit:
+  success: "&eRecibiste el kit de oxidación de cobre!"
+  help: "&7Coloca fogata, bloque de cobre encima y agua cerca!"
+  cooldown: "&cDebes esperar %time% segundos antes de usar el kit de nuevo!"
+  player-only: "&cEste comando solo puede ser usado por jugadores!"
+
+# Toggle messages command
+toggle:
+  enabled: "&aMensajes de oxidación de cobre activados!"
+  disabled: "&cMensajes de oxidación de cobre desactivados!"
+  player-only: "&cEste comando solo puede ser usado por jugadores!"
+
+# Language command messages
+language:
+  current: "&eTu idioma actual: &b%lang%"
+  changed: "&aIdioma cambiado a: &b%lang%"
+  invalid: "&cIdioma inválido! Idiomas disponibles: &e%languages%"
+  list-header: "&eIdiomas disponibles:"
+  list-item: "&7- &b%code% &7(%name%)"
+  admin-set-default: "&aIdioma predeterminado del servidor establecido a: &b%lang%"
+  admin-no-permission: "&cNecesitas permiso de administrador para establecer el idioma predeterminado!"
+  player-only: "&cEste comando solo puede ser usado por jugadores!"
+  help:
+    header: "&e=== Comandos de Idioma ==="
+    user: "&b/copperplus language &7- Muestra tu idioma actual"
+    set: "&b/copperplus language set <código> &7- Cambia tu idioma"
+    list: "&b/copperplus language list &7- Lista idiomas disponibles"
+    admin: "&b/copperplus language admin <código> &7- Establecer idioma predeterminado (solo admin)"
+
+# Main command help
+help:
+  header: "&e=== Comandos de CopperPlus ==="
+  kit: "&b/copperplus kit &7- Obtener el kit de oxidación de cobre"
+  language: "&b/copperplus language &7- Gestionar configuración de idioma"
+  togglemsg: "&b/copperplus togglemsg &7- Alternar mensajes de oxidación"
+  reload: "&b/copperplus reload &7- Recargar configuración (solo admin)"
+
+# Reload command
+reload:
+  success: "&aConfiguración de CopperPlus recargada!"

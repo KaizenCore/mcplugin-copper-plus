@@ -1,0 +1,44 @@
+# Hindi (India) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cआपको इसका उपयोग करने की अनुमति नहीं है!"
+
+# Oxidation messages
+oxidation:
+  started: "&eतांबे का त्वरित ऑक्सीकरण शुरू हुआ!"
+  progress: "&eतेज़ी से ऑक्सीकरण हो रहा है! पानी के ब्लॉक: &b%water% &e(गति: &b%speed%x&e)"
+  completed: "&e&b%from% &eसे &b%to% &eमें ऑक्सीकरण हुआ"
+  fully-complete: "&6तांबा पूरी तरह से ऑक्सीकृत हो गया!"
+  no-water: "&cतेज़ ऑक्सीकरण के लिए पास में पानी चाहिए!"
+  campfire-not-lit: "&cकैम्पफायर जला होना चाहिए!"
+  checking-setup: "&7ऑक्सीकरण सेटअप की जांच हो रही है..."
+
+# Kit messages
+kit:
+  success: "&eआपको तांबा ऑक्सीकरण किट मिली!"
+  help: "&7कैम्पफायर रखें, ऊपर तांबे का ब्लॉक और पास में पानी रखें!"
+  cooldown: "&cकिट का फिर से उपयोग करने से पहले %time% सेकंड प्रतीक्षा करें!"
+  player-only: "&cयह कमांड केवल खिलाड़ी उपयोग कर सकते हैं!"
+
+# Toggle messages command
+toggle:
+  enabled: "&aतांबा ऑक्सीकरण संदेश सक्षम!"
+  disabled: "&cतांबा ऑक्सीकरण संदेश अक्षम!"
+  player-only: "&cयह कमांड केवल खिलाड़ी उपयोग कर सकते हैं!"
+
+# Language command messages
+language:
+  current: "&eआपकी वर्तमान भाषा: &b%lang%"
+  changed: "&aभाषा बदली गई: &b%lang%"
+  invalid: "&cअमान्य भाषा! उपलब्ध भाषाएं: &e%languages%"
+  list-header: "&eउपलब्ध भाषाएं:"
+  list-item: "&7- &b%code% &7(%name%)"
+  admin-set-default: "&aसर्वर की डिफ़ॉल्ट भाषा सेट की गई: &b%lang%"
+  admin-no-permission: "&cडिफ़ॉल्ट भाषा सेट करने के लिए एडमिन अनुमति चाहिए!"
+  help:
+    header: "&e=== भाषा कमांड ==="
+    user: "&b/language &7- अपनी वर्तमान भाषा देखें"
+    set: "&b/language set <कोड> &7- अपनी भाषा बदलें"
+    list: "&b/language list &7- उपलब्ध भाषाओं की सूची"
+    admin: "&b/language admin <कोड> &7- डिफ़ॉल्ट भाषा सेट करें (केवल एडमिन)"

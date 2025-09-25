@@ -1,0 +1,44 @@
+# Japanese (Japan) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cこれを使用する権限がありません！"
+
+# Oxidation messages
+oxidation:
+  started: "&e銅の加速酸化を開始しました！"
+  progress: "&e急速酸化中！水ブロック：&b%water% &e（速度：&b%speed%x&e）"
+  completed: "&e&b%from% &eから &b%to% &eに酸化しました"
+  fully-complete: "&6銅が完全に酸化しました！"
+  no-water: "&c急速酸化には近くに水が必要です！"
+  campfire-not-lit: "&c焚き火は点火されている必要があります！"
+  checking-setup: "&7酸化設定を確認中..."
+
+# Kit messages
+kit:
+  success: "&e銅酸化キットを受け取りました！"
+  help: "&7焚き火を置き、上に銅ブロック、近くに水を配置してください！"
+  cooldown: "&cキットを再び使用するには %time% 秒待つ必要があります！"
+  player-only: "&cこのコマンドはプレイヤーのみ使用できます！"
+
+# Toggle messages command
+toggle:
+  enabled: "&a銅酸化メッセージが有効になりました！"
+  disabled: "&c銅酸化メッセージが無効になりました！"
+  player-only: "&cこのコマンドはプレイヤーのみ使用できます！"
+
+# Language command messages
+language:
+  current: "&e現在の言語：&b%lang%"
+  changed: "&a言語を &b%lang% &aに変更しました"
+  invalid: "&c無効な言語です！利用可能な言語：&e%languages%"
+  list-header: "&e利用可能な言語："
+  list-item: "&7- &b%code% &7（%name%）"
+  admin-set-default: "&aサーバーのデフォルト言語を &b%lang% &aに設定しました"
+  admin-no-permission: "&cデフォルト言語を設定するには管理者権限が必要です！"
+  help:
+    header: "&e=== 言語コマンド ==="
+    user: "&b/language &7- 現在の言語を表示"
+    set: "&b/language set <コード> &7- 言語を変更"
+    list: "&b/language list &7- 利用可能な言語一覧"
+    admin: "&b/language admin <コード> &7- デフォルト言語を設定（管理者のみ）"

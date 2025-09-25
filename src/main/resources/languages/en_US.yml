@@ -1,0 +1,57 @@
+# English (US) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cYou don't have permission to use this!"
+
+# Oxidation messages
+oxidation:
+  started: "&eStarted accelerated oxidation for copper!"
+  progress: "&eOxidizing rapidly! Water blocks: &b%water% &e(Speed: &b%speed%x&e)"
+  completed: "&eOxidized &b%from% &eto &b%to%"
+  fully-complete: "&6Copper fully oxidized!"
+  no-water: "&cNeed water nearby for rapid oxidation!"
+  campfire-not-lit: "&cThe campfire must be lit!"
+  checking-setup: "&7Checking oxidation setup..."
+
+# Kit messages
+kit:
+  success: "&eYou received the copper oxidation kit!"
+  help: "&7Place campfire, copper block above it, and water nearby!"
+  cooldown: "&cYou must wait %time% seconds before using the kit again!"
+  player-only: "&cThis command can only be used by players!"
+
+# Toggle messages command
+toggle:
+  enabled: "&aCopper oxidation messages enabled!"
+  disabled: "&cCopper oxidation messages disabled!"
+  player-only: "&cThis command can only be used by players!"
+
+# Language command messages
+language:
+  current: "&eYour current language: &b%lang%"
+  changed: "&aLanguage changed to: &b%lang%"
+  invalid: "&cInvalid language! Available languages: &e%languages%"
+  list-header: "&eAvailable languages:"
+  list-item: "&7- &b%code% &7(%name%)"
+  admin-set-default: "&aDefault server language set to: &b%lang%"
+  admin-no-permission: "&cYou need admin permission to set the default language!"
+  player-only: "&cThis command can only be used by players!"
+  help:
+    header: "&e=== Language Commands ==="
+    user: "&b/copperplus language &7- Show your current language"
+    set: "&b/copperplus language set <code> &7- Change your language"
+    list: "&b/copperplus language list &7- List available languages"
+    admin: "&b/copperplus language admin <code> &7- Set default language (admin only)"
+
+# Main command help
+help:
+  header: "&e=== CopperPlus Commands ==="
+  kit: "&b/copperplus kit &7- Get the copper oxidation kit"
+  language: "&b/copperplus language &7- Manage language settings"
+  togglemsg: "&b/copperplus togglemsg &7- Toggle oxidation messages"
+  reload: "&b/copperplus reload &7- Reload configuration (admin only)"
+
+# Reload command
+reload:
+  success: "&aCopperPlus configuration reloaded!"

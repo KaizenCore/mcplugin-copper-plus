@@ -1,0 +1,44 @@
+# Chinese (Simplified) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&c你没有权限使用这个！"
+
+# Oxidation messages
+oxidation:
+  started: "&e开始加速铜氧化！"
+  progress: "&e快速氧化中！水方块：&b%water% &e（速度：&b%speed%x&e）"
+  completed: "&e已氧化 &b%from% &e到 &b%to%"
+  fully-complete: "&6铜完全氧化！"
+  no-water: "&c需要附近有水才能快速氧化！"
+  campfire-not-lit: "&c营火必须点燃！"
+  checking-setup: "&7检查氧化设置..."
+
+# Kit messages
+kit:
+  success: "&e你收到了铜氧化工具包！"
+  help: "&7放置营火，上面放铜块，附近放水！"
+  cooldown: "&c你必须等待 %time% 秒才能再次使用工具包！"
+  player-only: "&c此命令只能由玩家使用！"
+
+# Toggle messages command
+toggle:
+  enabled: "&a铜氧化消息已启用！"
+  disabled: "&c铜氧化消息已禁用！"
+  player-only: "&c此命令只能由玩家使用！"
+
+# Language command messages
+language:
+  current: "&e你当前的语言：&b%lang%"
+  changed: "&a语言已更改为：&b%lang%"
+  invalid: "&c无效的语言！可用语言：&e%languages%"
+  list-header: "&e可用语言："
+  list-item: "&7- &b%code% &7（%name%）"
+  admin-set-default: "&a默认服务器语言设置为：&b%lang%"
+  admin-no-permission: "&c你需要管理员权限才能设置默认语言！"
+  help:
+    header: "&e=== 语言命令 ==="
+    user: "&b/language &7- 显示你当前的语言"
+    set: "&b/language set <代码> &7- 更改你的语言"
+    list: "&b/language list &7- 列出可用语言"
+    admin: "&b/language admin <代码> &7- 设置默认语言（仅管理员）"

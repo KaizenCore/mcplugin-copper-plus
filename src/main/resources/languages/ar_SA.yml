@@ -1,0 +1,44 @@
+# Arabic (Saudi Arabia) Language File for CopperPlus
+
+# General messages
+prefix: "&a[CopperPlus]"
+no-permission: "&cليس لديك الصلاحية لاستخدام هذا!"
+
+# Oxidation messages
+oxidation:
+  started: "&eبدأت أكسدة النحاس المتسارعة!"
+  progress: "&eأكسدة سريعة! كتل الماء: &b%water% &e(السرعة: &b%speed%x&e)"
+  completed: "&eتأكسد من &b%from% &eإلى &b%to%"
+  fully-complete: "&6النحاس مؤكسد بالكامل!"
+  no-water: "&cتحتاج إلى الماء بالقرب للأكسدة السريعة!"
+  campfire-not-lit: "&cيجب أن تكون نار المخيم مشتعلة!"
+  checking-setup: "&7فحص إعدادات الأكسدة..."
+
+# Kit messages
+kit:
+  success: "&eلقد حصلت على طقم أكسدة النحاس!"
+  help: "&7ضع نار المخيم، كتلة النحاس فوقها، والماء بالقرب!"
+  cooldown: "&cيجب الانتظار %time% ثانية قبل استخدام الطقم مرة أخرى!"
+  player-only: "&cهذا الأمر يمكن استخدامه من قبل اللاعبين فقط!"
+
+# Toggle messages command
+toggle:
+  enabled: "&aتم تفعيل رسائل أكسدة النحاس!"
+  disabled: "&cتم تعطيل رسائل أكسدة النحاس!"
+  player-only: "&cهذا الأمر يمكن استخدامه من قبل اللاعبين فقط!"
+
+# Language command messages
+language:
+  current: "&eلغتك الحالية: &b%lang%"
+  changed: "&aتم تغيير اللغة إلى: &b%lang%"
+  invalid: "&cلغة غير صالحة! اللغات المتاحة: &e%languages%"
+  list-header: "&eاللغات المتاحة:"
+  list-item: "&7- &b%code% &7(%name%)"
+  admin-set-default: "&aتم تعيين لغة الخادم الافتراضية إلى: &b%lang%"
+  admin-no-permission: "&cتحتاج إلى صلاحية المشرف لتعيين اللغة الافتراضية!"
+  help:
+    header: "&e=== أوامر اللغة ==="
+    user: "&b/language &7- عرض لغتك الحالية"
+    set: "&b/language set <الرمز> &7- تغيير لغتك"
+    list: "&b/language list &7- قائمة اللغات المتاحة"
+    admin: "&b/language admin <الرمز> &7- تعيين اللغة الافتراضية (المشرف فقط)"
